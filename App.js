@@ -1,0 +1,4 @@
+const [ firstWordOptions, secondWordOptions, thirdWordOptions ] = [ ['One', 'Two', 'Three'], ['Foo', 'Bar', 'Baz'], ['Life', 'Universe', 'Everything'] ]
+const [ firstWord, secondWord, thirdWord ] = [ firstWordOptions[Math.floor(Math.random() * (firstWordOptions.length))], secondWordOptions[Math.floor(Math.random() * (secondWordOptions.length))], thirdWordOptions[Math.floor(Math.random() * (thirdWordOptions.length))] ]
+const [ firstPhrase, secondPhrase, thirdPhrase ] = [ `The first word is ${firstWord}`, `The second word is ${secondWord}`, `The third word is ${thirdWord}` ]
+console.log(firstPhrase), console.log(secondPhrase), console.log(thirdPhrase)
